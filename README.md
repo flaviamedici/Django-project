@@ -22,4 +22,5 @@ INSTALLED_APPS = [
 create migrations: Forms class translated into python code
 ```
 python manage.py makemigration
+python manage.py migrate
 ```
