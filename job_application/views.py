@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .forms import ApplicationForm
 from .models import Form
 from django.contrib import messages
+from django.core.mail import EmailMessage
 
 def index(request):
     if request.method == 'POST':
